@@ -1,0 +1,52 @@
+.text-box :first-child h3 {
+
+    color: pink;
+}
+
+#greycol p {
+    color: gray;
+}
+
+
+div>p :nth-child(5) {
+    color: red;
+}
+
+.text-box :nth-child(8) p {
+    color: green;
+}
+
+.yellow>p {
+    color: yellow;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.day-per-week {
+    display: inline;
+    margin: 150px;
+    font-size: 30px;
+}
+
+.day-per-week:hover:nth-child(1) {
+    color: rgb(0, 38, 255)
+}
+
+.day-per-week:hover:nth-child(2) {
+    color: rgb(230, 216, 23)
+}
+
+.day-per-week:hover:nth-child(3) {
+    color: rgb(56, 214, 42)
+}
+
+.day-per-week:hover:nth-child(4) {
+    color: rgb(239, 20, 20)
+}
+
+.day-per-week:hover:nth-child(5) {
+    color: rgb(237, 13, 207)
+}
